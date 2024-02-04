@@ -90,6 +90,13 @@ git clone https://github.com/xnl-h4ck3r/waymore.git
 cd waymore
 ```
 
+Use prebuilt image:
+```bash
+docker run -it --rm -v $PWD/results:/app/results ghcr.io/xnl-h4ck3r/waymore:main python3 waymore.py -i example.com -mode U
+```
+
+## Build with docker
+
 Build image:
 
 ```bash
